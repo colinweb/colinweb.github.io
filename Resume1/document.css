@@ -1,0 +1,10 @@
+﻿@charset "UTF-8"; * {margin:0; padding:0; text-indent:0; }
+ h1 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 20pt; }
+ .s1 { color: black; font-family:"Minion Pro", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 8pt; }
+ .s2 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 8pt; }
+ a { color: #0562C1; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: underline; font-size: 8pt; }
+ .p, p { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; margin:0pt; }
+ h2 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11pt; }
+ .s3 { color: black; font-family:"Courier New", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+ .s5 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: underline; font-size: 11pt; }
+ .h3 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 7pt; vertical-align: 3pt; }
