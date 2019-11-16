@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>o__O</title>
+  
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	
+  </head>
 <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 
 <style>
-
 body {
 	font-family: Courier New, 'monospace';
 }
@@ -17,10 +25,8 @@ img {
 	border: thin black
 }
 ul {
-
 	padding: 10px 20px
 }
-
 li {
 	text-decoration: none;
 	padding: 0px 15px;
@@ -32,29 +38,25 @@ a {
 a.hover {
 	text-decoration: strike-through
 }
-
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0
 	width: 60px;
-
 }
-
 li a {
 	display: block;
 }
-
 .topnav {
 	background-color: red;
 	display: flex;
 	color: white;
 }
+	
 </style>
 
-</head>
 <body>
-<p>Colin MacGeorge<br>
+  <p>Colin MacGeorge<br>
 multimedia coordinator, producer, adjunct instructor, idea man.
 </p>
 
@@ -62,16 +64,19 @@ multimedia coordinator, producer, adjunct instructor, idea man.
 	<li> <a href="index.html"> Home </a> </li>
 	<li> <a href="imp1.html"> Integrated Media 1 </a> </li>
 	<li> <a href="resumepage.html"> Resume </a> </li>
+	<li> <a href="video.html"> Video </a> </li>
 	<li> <a href="features.html"> Featured </a> </li>
 </ul>
 
-<H1>Recent Live Productions</H1>
-<a href="https://www.youtube.com/watch?v=No46bqlCN-U" target="blank">
-<img src="commandcenter.png" alt="command center" width="250px" height="auto">
-</a>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/No46bqlCN-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h1>Recent Live Productions</h1>
+<div class="d-flex align-content-center justify-content-center"> <iframe width="560" height="315" src="https://www.youtube.com/embed/No46bqlCN-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+	  </div>
+<hr>
+<p class="text-center">The University of Cincinnati College-Conservatory of Music (CCM) opens its CCMONSTAGE 2019-20 event series with a performance by the CCM Philharmonia featuring faculty artist Giora Schmidt on Dvořák's Violin Concerto in A Major. Maestro Mark Gibson conducts.<br>
 
+This performance was streamed live on Friday, Sept. 20, 2019, from CCM's state-of-the-art Corbett Auditorium. Learn more about CCM's nationally ranked and internationally renowned programs by visiting https://ccm.uc.edu.</p>
+	
 <ul><strong>Technical Producer</strong>
 <li>Encoder Setup</li>
 <li>Video and Audio Signal Patching</li>
@@ -85,8 +90,16 @@ multimedia coordinator, producer, adjunct instructor, idea man.
 </ul>
 <footer>
 <hr>
-<H6>&copy; Colin MacGeorge and Hattie Sager 2019<H6>
-</body>
-</footer>
-</html>
+<h6>&copy; Colin MacGeorge and Hattie Sager 2019<h6>
+	<!-- body code goes here -->
 
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.3.1.js"></script>
+</footer>
+</body>
+</html>
