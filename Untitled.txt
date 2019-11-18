@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+
+The brains of your website live here.
+This is also where you can add styling.  We'll get to that a little later.
+
+	
+</head>
+
+
+<body>
+
+
+The body of your webpage lives here
+
+
+</body>
+
+
+</html>
+
+
+Closing tags have a forward slash. The </html> tag closes the loop. 
