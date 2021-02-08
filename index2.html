@@ -9,7 +9,7 @@
   
 	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
 	
-  </head>
+
 <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 
 <style>
@@ -50,8 +50,44 @@
         align-content:center;
         justify-content: center;
     }
-</style>
+    
+    .image {
+    display:block;
+    width: 100%;
+    height: auto;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+    }
 
+    .container:hover .overlay {
+        opacity: 1;
+    }
+    
+    .text{
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+</style>
+</head>
 <body>
   
 <div>
@@ -59,42 +95,48 @@
     
 <table>
     <tr>
-    <td><br><br>
-        <a href="index.html">
-        <img src="camera.png" height="65" width="65" alt="photos" border="0">
+    <td>
+        <div class="container"><a href="index.html">
+        <img src="camera.png" height="65" width="65" alt="photos" class="image">
+        <div class="overlay">
+        <div class="text">my photos</div>
+        </div>    
         </a>
-    <br><br></td>
-    <td><br><br>        
+        </div>    
+   </td>
+        
+        
+    <td>        
         <a href="Video.html">
         <img src="video.png" height="75" width="75" alt="photos" border="0">
         </a>
-    <br><br></td>
-    <td><br><br>other<br><br></td>   
+    </td>
+    <td>other</td>   
     </tr>
     <tr>
-    <td><br><br>
+    <td>
         <a href="work.html">
         <img src="resumeicon.png" height="65" width="65" alt="workexperience" border="0">
         </a>
-    <br><br></td>
-    <td><br><br>live production<br><br></td>
-    <td><br><br>other<br><br></td>
+    </td>
+    <td>live production</td>
+    <td>other</td>
     </tr>
     <tr>
-    <td><br><br>other<br><br></td>
+    <td>other</td>
         
         
         
-    <td><br><br>web design<br><br></td>
+    <td>web design></td>
         
         
         
         
-    <td><br><br>
+    <td>
         <a href="https://www.youtube.com/channel/UCUJJxMmLyUxnqWRKOJH_xmA/videos?view=0&sort=dd&shelf_id=0">
         <img src="youtube.png" height="75" width="75" alt="youtubechannel" border="0">
         </a>   
-     <br><br></td>  
+     </td>  
     </tr>
     </table>    
     
