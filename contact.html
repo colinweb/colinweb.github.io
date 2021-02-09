@@ -10,9 +10,38 @@
 	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
 	
   </head>
-<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 
 <style>
+    body {
+              font-family: 'Oswald', sans-serif;
+      }
+p
+{
+  color:#000000;
+  font-size:20px;
+}
+
+.textBox
+{
+  height:30px;
+  width:300px;
+}
+
+button
+{
+  height:90px;
+  width:150px;
+  border-radius:8px;
+  padding:10px;
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
+  height:52px;
+  cursor:pointer;
+  background-color:turquoise;
+}
+       
+    
     h1 {
         font-family: serif;
         display: flex;
@@ -22,13 +51,36 @@
 </style>
 
 <body>
+
 <h1>colin macgeorge</h1>  
 <br><br><br>    
 <h5>colinmacgeorge@gmail.com</h5>    
+
+
+<center>
+<p id="p1">colinmacgeorge@gmail.com</p>
+
+
+<button onclick="copyToClipboard('#p1')">click to copy my email to your clipboard</button>
+
+
+</center>    
+    
+    
+    
+       
 <footer>
 <hr>
 <h6>&copy; Colin MacGeorge 2020</h6>
-
+    
+    <script function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap-4.3.1.js"></script>
