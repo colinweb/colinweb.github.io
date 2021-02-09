@@ -1,84 +1,246 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Colin MacGeorge</title>
+  
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	
+
 <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <style>
+  body {
+  font-family: serif;
+  margin: 0;
+}
 
-body {
-	font-family: Courier New, 'monospace';
+* {
+  box-sizing: border-box;
 }
-h1 {
-	font-family: 'Oswald', sans-serif;
-	text-align:center
-}
-	p {text-align:right}
+
 img {
-	border: thin black
+  vertical-align: middle;
 }
-ul {
+.container {
+  position: relative;
+}
+.mySlides {
+  display: none;
+}
+.cursor {
+  cursor: pointer;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+    }
+    
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}    
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
 
-	padding: 10px 20px
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 16.66%;
+}
+.demo {
+  opacity: 0.6;
 }
 
-li {
-	text-decoration: none;
-	padding: 0px 15px;
-	list-style-image: none
-}
-a {
-	color: white;
-}
-a.hover {
-	text-decoration: strike-through
-}
+.active,
+.demo:hover {
+  opacity: 1;
+}    
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0
-	width: 60px;
-
-}
-
-li a {
-	display: block;
-}
-
-.topnav {
-	background-color: red;
-	display: flex;
-	color: white;
-}
+    h1 {
+        font-family: serif;
+        display: flex;
+        text-align: center;
+        align-content:center;
+        justify-content: center; 
 </style>
-
-
+</head>      
 <body>
-<ul class="topnav">
-	<li> <a href="index.html"> Home </a> </li>
-	<li> <a href="imp1.html"> Integrated Media 1 </a> </li>
-	<!-- <li> <a href="resumepage.html"> Resume </a> </li> -->
-	<li> <a href="Video.html"> Video Work </a> </li>
-	<li> <a href="features.html"> Featured </a> </li>
-</ul>
+<h1>colin macgeorge</h1>      
+    <div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 12</div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/X4thLgo85Fw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">2 / 12</div>
+    <img src="cincinnati.jpg" style="width:100%">
+  </div>
 
-<p>Video Work</p>
-<hr> 
+  <div class="mySlides">
+    <div class="numbertext">3 / 12</div>
+    <img src="clarknjack.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 12</div>
+    <img src="waterfall.jpeg" style="width:100%">
+  </div>
 
-<p>Colin MacGeorge<br>
-multimedia coordinator, producer, adjunct instructor, idea man.
-</p>
+  <div class="mySlides">
+    <div class="numbertext">5 / 12</div>
+    <img src="mountain.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 12</div>
+    <img src="grandace2.jpg" style="width:100%">
+  </div>
+      <div class="mySlides">
+    <div class="numbertext">7 / 12</div>
+    <img src="nathan.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 12</div>
+    <img src="spookydreamland.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">9 / 12</div>
+    <img src="grandace.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">10 / 12</div>
+    <img src="alps.jpeg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">11 / 12</div>
+    <img src="devilsbridge.jpg" style="width:100%">
+  </div>    
+  <div class="mySlides">
+    <div class="numbertext">12 / 12</div>
+    <img src="neuschwanstein.jpeg" style="width:100%">
+  </div>        
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="lakeneuschwanstein.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Lake Neuschwanstein">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="cincinnati.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cincinnati, Ohio">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="clarknjack.jpg" style="width:100%" onclick="currentSlide(3)" alt="Spooky Dreamland Band">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="waterfall.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Waterfall">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="mountain.jpg" style="width:100%" onclick="currentSlide(5)" alt="Bavarian Alps">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="grandace2.jpg" style="width:100%" onclick="currentSlide(6)" alt="GrandAce">
+    </div>
+      <div class="column">
+      <img class="demo cursor" src="nathan.jpg" style="width:100%" onclick="currentSlide(7)" alt="Blue Chairs Band">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="spookydreamland.jpg" style="width:100%" onclick="currentSlide(8)" alt="Spooky Dreamland Band">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="grandace.jpeg" style="width:100%" onclick="currentSlide(9)" alt="GrandAce">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="alps.jpeg" style="width:100%" onclick="currentSlide(10)" alt="Bavarian Alps">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="devilsbridge.jpg" style="width:100%" onclick="currentSlide(11)" alt="Sedona, AZ">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="neuschwanstein.jpeg" style="width:100%" onclick="currentSlide(12)" alt="Neuschwanstein Castle">
+    </div>    
+  </div>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>        
 
 
-</head>
-</body>
+<footer>  
+    <hr>
+<h6>&copy; Colin MacGeorge 2021</h6>
 
-<footer>
-<hr>
-<H6>&copy; Colin MacGeorge and Hattie Sager 2019<H6>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.3.1.js"></script>
 </footer>
+</body>
+    
 </html>
