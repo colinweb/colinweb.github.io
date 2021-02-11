@@ -19,38 +19,21 @@
         margin: 0;
         padding: 0;
     }
-    body {
-        height: 100vh;
-        width: 100vw;
-        background-size: 100% 100%;
-        padding: 10px;
-        font-size: 20px;
-        background-color: white;
-    }
-    * {
-        box-sizing: border-box;
-    }
     
-    table {
-        width: 100%;
-        text-align: center;
-        text-decoration:bold;
-        padding: 20px;
+.divTable
+    {
+        display: table;
+        width: auto;
     }
-    
-    h1 {
-        font-family: serif;
-        display: flex;
-        text-align: center;
-        align-content:center;
-        justify-content: center;
+    .divRow{
+        display: table-row;
+        width:auto;
+    }    
+    .divCell{
+        float:left;
+        display:table-column;
+        width:200px;
     }
-    
-    .container{
-        position: relative;
-        width: 50%;
-    }
-    
     .image {
     display:block;
     width: 65;
@@ -92,8 +75,78 @@
   
 
 <h1>colin macgeorge</h1>    
+  
+
+<div class="divtable">
+    <div class="divRow">
+        <div class="divCell">
+            <div class="container">
+                <a href="videonew.html">
+                    <img src="video.png" height="75" width="75" alt="photos" class="image">
+                <div class="overlay">
+                    <div class="text">my videos</div>
+                </div>        
+                </a>
+            </div>
+        </div>
+        <div class="divCell">
+            <div class="container">
+                <a href="photos.html">
+                    <img src="camera.png" height="65" width="65" alt="photos" class="image">
+                <div class="overlay">
+                    <div class="text">my photos</div>
+                </div>    
+                </a>
+            </div>  
+        </div>
+    </div>
+    <div class="divRow">
+        <div class="divCell">
+            <div class="container">
+                <a href="work.html">
+                    <img src="resumeicon.png" height="65" width="65" alt="workexperience" class="image">
+                <div class="overlay">
+                    <div class="text">resume</div>
+                </div>    
+                </a>
+            </div>
+        </div>
+        <div class="divCell">
+            <div class="container">
+                <a href="contact.html">
+                    <img src="email.png" height="65" width="65" alt="photos" class="image">
+                <div class="overlay">
+                    <div class="text">contact me</div>
+                </div>    
+                </a>
+            </div>
+        </div>     
+    </div>
+    <div class="divRow">
+        <div class="divCell">
+            <div class="container">
+                <a href="https://www.linkedin.com/in/colinmacgeorge/">
+                    <img src="linkedin.png" height="65" width="65" alt="photos" class="image">
+                <div class="overlay">
+                    <div class="text">my linkedin</div>
+                </div>    
+                </a>
+            </div>  
+        </div>
+        <div class="divCell">
+            <div class="container">
+                <a href="https://www.youtube.com/channel/UCUJJxMmLyUxnqWRKOJH_xmA/videos?view=0&sort=dd&shelf_id=0">
+                    <img src="youtube.png" height="65" width="65" alt="youtube" class="image">
+                <div class="overlay">
+                    <div class="text">my youtube</div>
+                </div>    
+                </a>
+            </div>
+        </div>
+    </div>
+</div>    
     
-  <table>
+<!--  <table>
   <tr>
     <td> 
         <br>
@@ -216,8 +269,26 @@
       
  </table>    
     
-
-
+body {
+        height: 100vh;
+        width: 100vw;
+        background-size: 100% 100%;
+        padding: 10px;
+        font-size: 20px;
+        background-color: white;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    
+    table {
+        width: 100%;
+        text-align: center;
+        text-decoration:bold;
+        padding: 20px;
+    }
+   
+-->
 
 <footer>
 <hr>
