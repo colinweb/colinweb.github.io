@@ -14,66 +14,71 @@
 
 <style>
 
-.divTable
-    {
-        display: table;
-        width: 100%;
-    }
-    .divRow{
-        display: table-row;
-        width:auto;
-    }    
-    .divCell{
-        float:left;
-        display:table-column;
-        width:50%;
-        height:50%;
-    }
-    .image {
+.divTable{
+    display: table;
+    width: 100%;
+}
+    
+.divRow{
+    display: table-row;
+    width:auto;
+}    
+
+.divCell{
+    float:left;
+    display:table-column;
+    width:50%;
+    height:50%;
+}
+    
+.image {
     display:block;
     width: 65;
     height: 65;
-    }
+}
     
-    .container {
-        position: relative;
-        width: 50%;
-    }    
-    .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #008CBA;
-    }
+.container {
+    position: relative;
+    width: 100%;
+}
+    
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
 
-    .container:hover .overlay {
-        opacity: 1;
-    }
+.container:hover .overlay {
+    opacity: 1;
+}
     
-    .text{
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    h1 {
-        font-family: serif;
-        display: flex;
-        text-align: center;
-        align-content:center;
-        justify-content: center; 
-    }
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+    
+h1 {
+    font-family: serif;
+    display: flex;
+    text-align: center;
+    align-content:center;
+    justify-content: center; 
+}
+    
 </style>
 </head>
 <body>
